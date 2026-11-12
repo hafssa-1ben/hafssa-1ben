@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+	float moyenne ;
+	float a,b,c ;
+	printf("saisir trois notes entiers");
+	scanf("%f %f %f",&a ,&b ,&c);
+	moyenne = (a + b + c)/3 ;
+	printf("moyenne egale a %f",moyenne);
+return 0;
+}
